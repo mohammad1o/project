@@ -18,20 +18,20 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px #00a3b5;
+    box-shadow: 0 0 0.521vw #00a3b5;
 }
 .firsthedar .logo img
 {
-    width: 100px;
+    width: 5.208vw;
     cursor: pointer;
-    margin: 8px  0;
+    margin: 0.417vw 0;
     
     
 }
 .firsthedar .list li
 {
     display: inline-block;
-    padding: 0 10px;   
+    padding: 0 0.521vw;   
 }
 a
 {
@@ -44,14 +44,14 @@ a
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: 50px;
+    top: 2.604vw;
     
 }
 .main .title h1{
 position: relative;
-font-size: 55px;
-left: 25px;
-top: 30px;
+font-size: 2.865vw;
+left: 1.302vw;
+top: 1.563vw;
 
 }
 .main .title h1 span{
@@ -59,12 +59,12 @@ top: 30px;
 }
 
 .title p {
-    width: 630px;
-    font-size: 16px;
-    line-height: 20px;
+    width:32.813vw;
+    font-size: 0.833vw;
+    line-height: 1.042vw;
     position: relative;
-    top: 25px;
-    left: 5px;
+    top: 1.302vw;
+    left: 0.26vw;
     color: black;
     font-style: normal;
     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
@@ -72,12 +72,12 @@ top: 30px;
   }
   .title a{
     background-color: #00a3b5;
-    padding: 10px 20px;
+    padding: 0.521vw 1.042vw;
     position: relative;
-    top: 40px;
-    left: 5px;
+    top: 2.083vw;
+    left: 0.26vw;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 1.042vw;
     color: white;
   }
 
@@ -85,23 +85,23 @@ top: 30px;
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 20px;
+    top: 1.042vw;
     width: 90%;
     height: auto;
-    margin: 35px 0;
+    margin: 1.823vw 0;
     left: 5%;
 }
 .service .serv1{
   
     text-align: center;
-     box-shadow: 0 0  8px #00a3b5;
+     box-shadow: 0 0  0.417vw #00a3b5;
     margin: 0 auto;
-    width: 300px;
+    width: 15.625vw;
     height: auto;
-    padding: 15px 10px;
+    padding: 0.781vw 0.521vw;
 }
 .service .serv1 i{
-    font-size: 40px;
+    font-size:2.083vw;
     color:#00a3b5;
 }
 .intro{
@@ -111,28 +111,28 @@ top: 30px;
 }
 .intro .conver{
     position: relative;
-    top: 240px;
+    top: 12.5vw;
 }
 .intro .conver h1{
     position: relative;
-    font-size: 50px;
+    font-size: 2.604vw;
     color: black;
-    top: -25px;
-    right: 10px;
+    top: -1.302vw;
+    right: 0.521vw;
 }
 .intro .conver p{
     position: relative;
-   font-size: 18px;
+   font-size: 0.938vw;
    color: black;
-    right: 10px;
+    right: 0.521vw;
 
 }
 .intro .conver a{
     background-color: #00a3b5;
     color: white;
-    padding: 10px 20px;
+    padding: 0.521vw 1.042vw;
     position: relative;
-    top: 100px;
+    top: 5.208vw;
     
 }
 
