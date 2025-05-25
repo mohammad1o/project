@@ -4,10 +4,32 @@
     padding: 0;
     box-sizing: border-box;
     }
+ html, body{
+    height: auto;
+    overflow-y: auto;
 
+ }
+ body{
+    scrollbar-width:thin ;
+    scrollbar-color: #00a3b5 white;
+ }
+ body::-webkit-scrollbar{
+    width:0.521vw ;
+ }
+ body::-webkit-scrollbar-track
+ {
+    background-color: white;
+
+ }
+ body::-webkit-scrollbar-thumb
+ {
+    background-color: #00a3b5;
+    border-radius: 0.521vw ;
+    border: 0.104vw solid white;
+ }
 section{
     width: 100%;
-    height: 100vh;
+    min-height: auto;
     background-image: url(./image/bg.png);
     background-size: cover;
     background-position: center;
@@ -46,6 +68,7 @@ a
 }
 .main{
     display: flex;
+    padding-top: 5.208vw;
     align-items: center;
     justify-content: space-around;
     position: relative;
@@ -56,7 +79,7 @@ a
 position: relative;
 font-size: 2.865vw;
 left: 1.302vw;
-top: 1.563vw;
+
 
 }
 .main .title h1 span{
@@ -68,7 +91,7 @@ top: 1.563vw;
     font-size: 0.833vw;
     line-height: 1.042vw;
     position: relative;
-    top: 1.302vw;
+   margin-top: 1.302vw;
     left: 0.26vw;
     color: black;
     font-style: normal;
@@ -79,7 +102,7 @@ top: 1.563vw;
     background-color: #00a3b5;
     padding: 0.521vw 1.042vw;
     position: relative;
-    top: 2.083vw;
+    top: 5.208vw;
     left: 0.26vw;
     font-weight: 100;
     font-size: 1.042vw;
@@ -90,7 +113,7 @@ top: 1.563vw;
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 1.042vw;
+    margin-top: 1.042vw;
     width: 90%;
     height: auto;
     margin: 1.823vw 0;
