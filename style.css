@@ -188,3 +188,10 @@ left: 1.302vw;
   margin-top: 1vw;
 }
 
+.blog-card {
+  width: 20vw;
+  border: 1px solid #ccc;
+  border-radius: 0.5vw;
+  overflow: hidden;
+  background: white;
+}
