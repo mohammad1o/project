@@ -166,4 +166,25 @@ left: 1.302vw;
   display: block;
 }
 
+.banner-section {
+  width: 100%;
+  overflow: hidden;
+  margin: 1vw 0;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.blog-section {
+  text-align: center;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  margin-top: 1vw;
+}
 
