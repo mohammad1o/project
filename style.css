@@ -154,5 +154,16 @@ left: 1.302vw;
   margin: 2vw 0;
 }
 
+.banner-section {
+  width: 100%;
+  overflow: hidden;
+  margin: 1vw 0;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
