@@ -13,3 +13,9 @@
 .checked{
     color: aqua;
 }
+.book-grid {
+    justify-content: flex ;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 55px;
+}
