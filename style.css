@@ -148,3 +148,23 @@ left: 1.302vw;
     top: 5.208vw;
     
 }
+
+.reviews {
+  padding: 40px;
+  text-align: center;
+}
+
+.review-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.review-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #d4f1f9;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
