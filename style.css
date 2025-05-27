@@ -173,3 +173,8 @@ left: 1.302vw;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+.review-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
