@@ -23,3 +23,9 @@
      box-shadow: 1px 1px 1px 1px;
      color: aqua;
 }
+.book-card {
+    border: 1px solid darkgrey;
+    padding: 10px;
+    text-align: center;
+   
+}
