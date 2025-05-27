@@ -19,3 +19,7 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
     gap: 55px;
 }
+.book-grid :hover{
+     box-shadow: 1px 1px 1px 1px;
+     color: aqua;
+}
