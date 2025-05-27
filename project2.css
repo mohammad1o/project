@@ -1,0 +1,39 @@
+#sec1{
+display: flex;
+overflow-x: auto ;
+margin: 2px;
+}
+p{
+    font-size: 7px;
+    color: silver;
+    padding-top: -7px;
+}
+.book-card , h1{
+    font-size: 14px;
+
+}
+.book-grid {
+    display: flex;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 45px;
+}
+.book-card {
+    border: 1px solid darkgrey;
+    padding: 10px;
+    text-align: center;
+   
+}
+.book-card:hover
+{
+    box-shadow: 1px 1px 1px 1px;
+    color: aqua;
+}
+img
+{
+    width: 100px;
+    height: 135px;
+}
+button
+{
+    border: 1px aqua solid;
+}
