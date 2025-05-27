@@ -28,3 +28,8 @@ p{
     box-shadow: 1px 1px 1px 1px;
     color: aqua;
 }
+img
+{
+    width: 100px;
+    height: 135px;
+}
