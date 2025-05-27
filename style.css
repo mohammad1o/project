@@ -187,3 +187,17 @@ left: 1.302vw;
   font-size: 18px;
   margin-top: 10px;
 }
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e6f7fb;
+  padding: 60px 10%;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.banner-img img {
+  max-width: 500px;
+  width: 100%;
+}
