@@ -33,3 +33,7 @@ img
     width: 100px;
     height: 135px;
 }
+button
+{
+    border: 1px aqua solid;
+}
