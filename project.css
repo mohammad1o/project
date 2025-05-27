@@ -36,3 +36,7 @@
     height: 50mm;
     zoom: normal;
 }
+.book-card p {
+    margin: 10px 0;
+    font-weight: bold;
+}
