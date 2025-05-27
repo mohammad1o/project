@@ -232,3 +232,30 @@ left: 1.302vw;
   height: 200px;
   object-fit: cover;
 }
+
+.blog-content {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-content h3 {
+  color: #00a3b5;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-icons {
+  display: flex;
+  justify-content: space-between;
+  color: #00a3b5;
+  margin-top: auto;
+}
