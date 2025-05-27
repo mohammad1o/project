@@ -202,10 +202,13 @@ left: 1.302vw;
   width: 100%;
   margin-top: -450px;}
 
- .blog-section {
+.blog-section {
   text-align: center;
-  padding: 40px 0;
+  padding: 0 0 40px 0;
+  position: relative;
+  top: -300px; 
 }
+
 
 .blog-box {
   display: flex;
