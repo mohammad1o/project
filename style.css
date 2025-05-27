@@ -183,3 +183,8 @@ left: 1.302vw;
   font-size: 1.2rem;
   color: #00a3b5;
 }
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin-top: 10px;
+}
