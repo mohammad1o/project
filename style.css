@@ -341,3 +341,8 @@ left: 1.302vw;
 .newsletter-form button:hover {
   background-color: #008494;
 }
+.footer {
+  background-color: #eee;
+  padding: 40px 0;
+  margin-top: -300px; 
+}
