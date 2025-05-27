@@ -23,3 +23,8 @@ p{
     text-align: center;
    
 }
+.book-card:hover
+{
+    box-shadow: 1px 1px 1px 1px;
+    color: aqua;
+}
