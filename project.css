@@ -1,0 +1,53 @@
+
+
+
+#sec1{
+    justify-items: flex-start;
+    padding: 40px;
+ 
+}
+#sec1 h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 640px;
+}
+.checked{
+    color: aqua;
+}
+.book-grid {
+    justify-content: flex ;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 55px;
+}
+.book-grid :hover{
+     box-shadow: 5px 5px 5px 5px;
+     color: aqua;
+}
+.book-card {
+    border: 1px solid darkgrey;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.book-card img {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+    height: 50mm;
+    zoom: normal;
+}
+
+.book-card p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.book-card button {
+    background-color: white;
+    color: black;
+    border: 1px solid aqua;
+}
