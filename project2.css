@@ -17,3 +17,9 @@ p{
     grid-template-columns: 20% 20% 20% 20% 20%;
     gap: 45px;
 }
+.book-card {
+    border: 1px solid darkgrey;
+    padding: 10px;
+    text-align: center;
+   
+}
