@@ -270,77 +270,45 @@ left: 1.302vw;
   font-size: 18px;
 }
 
-.footer {
-  background-color: #eeeeee;
-  padding: 30px 20px 10px;
-  margin-top: 30px;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
-  width: 100%;
-  padding: 0 40px;
+  padding: 40px;
+  background-color: #eee;
 }
 
-.footer-box {
-  flex: 1;
-  min-width: 180px;
-}
-
-.footer-box h3 {
-  margin-bottom: 10px;
-  color: black;
-}
-
-.footer-box p,
-.footer-box a {
-  font-size: 0.9rem;
-  color: black;
-  display: block;
-  margin: 5px 0;
-  text-decoration: none;
-}
-
+.footer-column,
 .footer-logo {
-  width: 60px;
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-logo img {
+  width: 80px;
   margin-bottom: 10px;
 }
 
-.footer-box input[type="email"] {
-  padding: 6px 10px;
-  border: none;
-  background-color: #ccc;
-  border-radius: 20px;
-  width: 100%;
-  max-width: 200px;
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column h4 {
   margin-bottom: 10px;
 }
 
-.footer-box button {
-  padding: 5px 12px;
-  border: none;
-  background-color: #00a3b5;
-  color: white;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.social-icons i {
-  font-size: 18px;
+.social-icons a {
   margin-right: 10px;
-  color: black;
-  cursor: pointer;
+  color: #333;
+  font-size: 18px;
+  transition: 0.3s ease;
 }
 
-.footer-credit {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 0.9rem;
-}
-
-.footer-credit span {
+.social-icons a:hover {
   color: #00a3b5;
 }
