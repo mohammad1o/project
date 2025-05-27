@@ -3,3 +3,10 @@
     padding: 40px;
  
 }
+#sec1 h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 640px;
+}
