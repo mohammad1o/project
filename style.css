@@ -187,3 +187,13 @@ left: 1.302vw;
   font-size: 18px;
   margin-top: 10px;
 }
+.digital-banner {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.digital-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
