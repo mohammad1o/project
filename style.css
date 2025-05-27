@@ -312,3 +312,32 @@ left: 1.302vw;
 .social-icons a:hover {
   color: #00a3b5;
 }
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #ccc;
+  color: black;
+}
+
+.newsletter-form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #00a3b5;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #008494;
+}
