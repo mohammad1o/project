@@ -187,6 +187,7 @@ left: 1.302vw;
   font-size: 18px;
   margin-top: 10px;
 }
+
 .digital-banner {
   width: 100%;
   margin-top: 20px;
@@ -200,3 +201,16 @@ left: 1.302vw;
 .digital-banner {
   width: 100%;
   margin-top: -450px;
+
+  .blog-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.blog-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
